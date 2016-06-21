@@ -8,9 +8,9 @@ namespace PlayerProject
     public class ShootingEnemy : Enemy, IShootable, ITouchable
     {
         public ShootingEnemy(string name)
-            :base(name)
+            : base(name)
         {
-           
+
         }
 
         public void Shoot()

@@ -8,9 +8,9 @@ namespace PlayerProject
     public class TouchingEnemy : Enemy, ITouchable
     {
         public TouchingEnemy(string name)
-            :base(name)
+            : base(name)
         {
-            
+
         }
 
         public void Fight()

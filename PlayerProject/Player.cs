@@ -10,7 +10,7 @@ namespace PlayerProject
         private int _score;
 
         public Player(string name)
-            :base(name)
+            : base(name)
         {
 
         }
